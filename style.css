@@ -5,8 +5,6 @@ a{
 .profil{
     position: absolute;
     right: 0;
-    height: 80vh;
-    width: 30%;
     top: 7%;
 
   animation: najat 1.4s ease-in-out forwards;
@@ -42,8 +40,6 @@ h2{
   right: 0;
   top: 0;
   z-index: -1;
-  height: 80vh;
-  width: 50%;
 }
 i{
     width: 50%;
@@ -54,3 +50,4 @@ i{
     border-radius: 50%;
     background-color: #FDC435;
 }
+
