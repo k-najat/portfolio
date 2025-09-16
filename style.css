@@ -1,0 +1,56 @@
+
+a{
+  text-decoration: none;
+}
+.profil{
+    position: absolute;
+    right: 0;
+    height: 80vh;
+    width: 30%;
+    top: 7%;
+
+  animation: najat 1.4s ease-in-out forwards;
+}
+@keyframes najat{
+  from{
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+h2{
+  text-decoration: underline #FDC435;
+
+  animation: line 1.4s ease-in-out forwards;
+}
+@keyframes line{
+  from{
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.bg-yellow{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  height: 80vh;
+  width: 50%;
+}
+i{
+    width: 50%;
+    font-size: 200%;
+    color: #000;
+}
+.np{
+    border-radius: 50%;
+    background-color: #FDC435;
+}
